@@ -16,7 +16,7 @@ hi def link lilyDeclaration     Keyword
 
 " Lily keywords within functions
 syn keyword lilyStatement      return
-syn keyword lilyConditional    if else elseif try except match
+syn keyword lilyConditional    if else elif try except match
 syn keyword lilyRepeat         for in do while
 syn keyword lilyLabel          case
 
