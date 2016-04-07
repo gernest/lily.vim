@@ -27,9 +27,8 @@ hi def link lilyLabel              Label
 
 " Predefined types
 syn keyword lilyType   Boolean Hash String List Integer ByteString Function
-          \Tuple Tainted Option 
+          \Tuple Tainted Option Double
 
-syn keyword lilyDouble  Double
 
 hi def link  lilyType lilyType
 
