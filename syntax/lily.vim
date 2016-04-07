@@ -16,7 +16,7 @@ hi def link lilyDeclaration     Keyword
 
 " Lily keywords within functions
 syn keyword lilyStatement      return
-syn keyword lilyConditional    if else try except match
+syn keyword lilyConditional    if else elseif try except match
 syn keyword lilyRepeat         for in do while
 syn keyword lilyLabel          case
 
@@ -27,6 +27,8 @@ hi def link lilyLabel              Label
 
 " Predefined types
 syn keyword lilyType   Boolean Hash String List Integer ByteString Function
+          \Tuple Tainted Option 
+
 syn keyword lilyDouble  Double
 
 hi def link  lilyType lilyType
