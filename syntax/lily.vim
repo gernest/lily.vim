@@ -27,6 +27,7 @@ hi def link lilyLabel              Label
 
 " Predefined types
 syn keyword lilyType   Boolean Hash String List Integer ByteString Function
+syn keyword lilyDouble  Double
 
 hi def link  lilyType lilyType
 
