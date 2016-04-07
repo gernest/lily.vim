@@ -41,6 +41,7 @@ hi def link lilyBuiltins Keyword
 hi def link lilyBoolean Boolean
 
 " Comments
+syn region lilyComment  start="#[" end="]#"
 syn region lilyComment  start="#" end="$"
 
 hi def link lilyComment Comment
