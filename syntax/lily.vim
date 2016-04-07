@@ -7,10 +7,9 @@ if exists("b:current_syntax")
    finish
 endif
 
-let b:current_syntax="lily:
 
 syn keyword lilyDirective       import
-syn keyword lilyDeclaration     var class enum
+syn keyword lilyDeclaration     var class enum define
 
 hi def link lilyDirective       Statement
 hi def link lilyDeclaration     Keyword
@@ -21,9 +20,9 @@ syn keyword lilyConditional    if else try except match
 syn keyword lilyRepeat         for in do while
 syn keyword lilyLabel          case
 
-hi def link  lilyStatement          Statement
-hi def link lilyConditional         Conditional
-hi def link lilyRepeat              Repeat
+hi def link lilyStatement          Statement
+hi def link lilyConditional        Conditional
+hi def link lilyRepeat             Repeat
 hi def link lilyLabel              Label
 
 " Predefined types
