@@ -31,7 +31,7 @@ syn keyword lilyType   Boolean Hash String List Integer ByteString Function
 hi def link  lilyType lilyType
 
 " Predefined functions and values
-syn match lilyBuiltins  /\<\v(print|println)\ze\(/
+syn match lilyBuiltins  /\<\v(print|calltrace)\ze\(/
 syn keyword lilyBoolean true false
 
 hi def link lilyBuiltins Keyword
