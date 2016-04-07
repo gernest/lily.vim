@@ -49,4 +49,11 @@ hi def link lilyComment Comment
 syn region lilyBlock start="{" end="}" transparent fold
 syn region lilyParen start='(' end=')' transparent
 
+" Constants
+syn match   lilyInt             "\d\+"
+syn match   lilyInt             "0x\x\+"
+syn match   lilyInt             "0b[01]\+"
+
+hi def link lilyInt Number
+
 let b:current_syntax = "lily"
